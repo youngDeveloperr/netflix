@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../Components/Navbar";
 
 function HomePage() {
-  return (
-<h1>Hello Author</h1>
-  )
+  return <Navbar />;
 }
 
-export default HomePage
+export default HomePage;
